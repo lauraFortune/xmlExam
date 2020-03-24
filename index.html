@@ -1,0 +1,201 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CA2 LAURA FORTUNE </title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway+Dots&amp;display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+
+        <div class="imageBreaker"></div>
+
+        <div class="greyBg"><!----------------------------START HOLIDAYS----------------------------------------->
+            <div class="margin">
+                <div class="hl"></div>  
+            </div>
+            <div class="title">Holidays</div>
+            <p class="title2">Select a country to reveal our top destination....then select something you would like to know about the destination!</p>
+            <div class="container">
+                <article class="element">
+                    <div id="xml" class="blackTextSml">
+                        <p> 1. France<br> 
+                            2. Italy<br> 
+                            3. USA<br>
+                            4. Switzerland<br>
+                            5. Egypt</p>
+                        <input id="input1" placeholder="Enter a number">
+                        <p >Find out more about....<br>
+                            season<br> 
+                            accomodation<br> 
+                            attraction<br> 
+                            cost</p>
+                        <input id="input2" placeholder="Enter your choice">
+                        <button onclick="interactionOne()">REVEAL</button><br><br><br>
+                        <p class="answer" id="answer1"></p>
+                    </div>
+                </article>
+                <div class="card">
+                    <div class="element"><img id="im2" src="images/plane.jpg" alt=""></div>
+                    <div class="element"><img id="dream"  src="images/image1.jpg" alt="">
+                        <button class="green" id="btn">DREAM</button>
+                    </div>
+                </div>
+              
+            </div>
+        </div><!--------------------------------END HOLIDAYS----------------------------------------->
+                        
+        <div class="imageBreaker2"></div>
+
+        <div class="greyBg"><!----------------------------START DEALS----------------------------------------->
+            <div class="margin">
+                <div class="hl"></div>  
+            </div>
+            <div class="title">Deals</div>
+            <p class="title2">Select a destination to reveal accomodation and costs</p>
+            <div class="container">
+                <article class="element">
+                    <div id="xml" class="blackTextSml">
+                        <p>  1. France<br> 
+                            2. Italy<br> 
+                            3. USA<br>
+                            4. Switzerland<br>
+                            5. Egypt</p>
+                        <input id="input3" placeholder="PLEASE ENTER NUMBER HERE">
+                        <button onclick="interactionTwo()">REVEAL</button><br><br><br>
+                        <p class="answer" id="answer2"></p>
+                    </div>
+                </article>
+                <div class="card">
+                        <div class="element"><img id="acom1"  src="images/image4.jpg" alt="">
+                            <button class="green" id="btn1">5 STAR HOTELS</button>
+                        </div>
+                        <div class="element"><img id="acom2"  src="images/villa.jpg" alt="">
+                            <button class="green" id="btn2">VILLAS</button>
+                        </div>
+                        <div class="element"><img id="acom3"  src="images/apartment.jpg" alt="">
+                            <button class="green" id="btn3">APARTMENTS</button>
+                        </div>
+                        
+                </div>
+            </div>
+        </div> <!--------------------------------END DEALS----------------------------------------->
+        
+        <div class="imageBreaker3"></div>
+
+        <div class="whiteBg"><!----------------------------START INSPIRED----------------------------------------->
+            <div class="margin">
+                <div class="hl"></div>  
+            </div>
+            <div class="title">Be Inspired</div>
+            <p class="title2">Browse our dreamy destinations</p>
+            <div class="container  blackTextSml">
+               
+                <div class="card">
+                    <div class="element">
+                        <img id="show"  src="images/bgImage.jpg" alt="">
+                        <button onclick="show()">Browse</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                        <div class="element">
+                            <img id="show2"  src="images/image5.jpg" alt="">
+                            <button onclick="show2()">Browse</button>
+                        </div>
+                    </div>
+
+                <div class="card">
+                        <div class="element">
+                            <p id="p1">We’re an award-winning luxury travel company. One built on curiosity, driven by a passion for discovery and always in search of the never done before.</p>
+                                <button id="moreBtn">READ MORE</button>
+                            <p class="readmore1">We don’t believe travel is just about the destination but the physical and emotional journey we take, the cultures we embrace and the stories we bring home. 
+                                <button id="andmoreBtn">AND MORE..</button>
+                            </p>
+                            <p class="readmore2">We think like this so that when it comes to your next trip, you think only about the adventure ahead. 
+                            </p>
+                        </div>
+                    </div>
+
+                
+                
+          </div>
+        </div><!----------------------------END INSPIRED----------------------------------------->
+        
+        <div class="bgImage"><!----------------------------START FORM----------------------------------------->
+            <div class="margin"> 
+            </div>
+            <div class="title"></div>
+
+            <div class="container">
+
+                <article class="element">
+                    <div class="whiteTitle2">
+                        <div class="hlWhite"></div>
+                        <div>CONNECT</div>
+                        <p>Say Hello</p>
+                    </div>
+                </article>
+
+                <article class="element">
+                    <div class="validate">
+                        <label for="name" >Name:</label>
+                        <input type="text" id="fullName" name="name" placeholder="Your Name..">
+                        <p id="alert1" class="alert"></p>
+                        
+                        <label for="email">Email:</label>
+                        <input type="text" id="emailAdd" name="email" placeholder="Your Email..">
+                        <p id="alert2" class="alert"></p>
+                                    
+                        <label for="password">Password:</label>
+                        <input type="text" id="password" name="password" placeholder="Your Password..">
+                        <p id="alert3" class="alert"></p>
+                                    
+                        <label for="confirmPass">Confirm Password:</label>
+                        <input type="text" id="confirmPass" name="confirmPass" placeholder="Confirm Password">
+                        <p id="alert4" class="alert"></p>
+                                    
+                        <label for="robot" >What is 5 + 2?</label>
+                        <input type="text" id="robot" name="robot" placeholder="Im not a robot..">
+                        <p id="alert5" class="alert"></p>
+                                
+                        <button class="button" onclick="formValidation()">Submit</button>
+                    </div>
+                </article>
+
+            </div>
+        </div><!----------------------------END 04 FORM----------------------------------------->
+    
+        <div class="whiteBg"><!----------------------------START RESEARCH----------------------------------------->
+            <div class="padding">
+                <div class="margin">
+                    <div class="hl"></div>  
+                </div>
+                <div class="title">RESEARCH</div>
+                <p class="title2">Press this button to reveal my research</p>
+                <div class="element">
+                    <button id="revealResearch">REVEAL</button> 
+                </div>
+                <p class="research textCenter">
+                        UX Design or User Experience Design, is a practice that describes the overall design of a product. It encompasses branding, user research and persona creation, wireframing, user paths and aesthetics. A UX designer must consider how the identified typical user will want to use the product or software and then design the mechanisms that will allow them to do so. For this to happen they must understand the nature of the intended client(s) and then make educated design decisions based on user testing and feedback as well as existing design patterns. From here, the designer will then develop “User Journeys” which will describe the overall collection of use cases for the product. These use cases will depict step by step how a user or client will progress through or use the product as they try to reach their goal. There are a number of existing theories and patterns that describe parts of this process such as “Progressive Disclosure”.
+                        <br><br>
+                        Progressive Disclosure is a design pattern that is used to simplify the users path or journey through an interactive software or menu system. The idea is to remove clutter and overcrowding of choice and to only present the relevant options to the user. The most prominent features of the program will usually be presented earlier in the menu system, with  more granular or rarely used functions or options being presented in more specific areas further along the journey.
+                        <br><br>
+                        A good example of this is in Windows based programs. Typically we are presented with a menu in the top left of our screen. The first menu option is usually “file” and it contains sub options like “new”, “open”, “save”. Each of these options typically present the user with further options in the form of a popup window. Each of those sub options are related specifically to the original choice. Eg you would not find the option to open a new document inside a “save” popup dialogue window. The user is guided safely through a path or journey intended to achieve a specific result.
+                        <br><br>
+                        Studies have shown that Progressive Disclosure not only makes a product much more logically accessible, but also allows for the user to learn how to use the product much more quickly, while also encouraging exploration of more hidden features.
+                        
+                </p>
+                
+            </div>
+        </div><!----------------------------END RESEARCH----------------------------------------->
+
+    <!----------------------------SCRIPTS----------------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/validation.js"></script>
+    <script src="javascript/xmlScript.js"></script>
+    <!----------------------------END SCRIPTS----------------------------------------->
+    
+    </body>
+    </html>

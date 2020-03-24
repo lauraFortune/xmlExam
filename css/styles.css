@@ -1,0 +1,252 @@
+/*################FONTS##############
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Raleway', 'Source Sans Pro', sans-serif;
+################END FONTS############*/
+
+/*#############BODY##################*/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: lightgrey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Raleway', 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    }
+/*#############END BODY##################*/
+
+/*##########RESPONSIVE BLOCKS- FLEX########*/
+.container{/*holds elements*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+       /*margin: 0 0%;*/
+    }
+.element { /*element wrap*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 0%;
+    padding: 1.5%;
+    width: 600px;
+    object-fit: cover;
+    }
+/*#######END RESPONSIVE BLOCKS - FLEX########*/
+
+/*##########RESPONSIVE CARD ELEMENTS########*/
+.card .element img {
+    display: flex;
+    margin: 5%;
+    height:360px;
+    width: 360px;
+    object-fit: cover;
+    
+    }
+.card{
+   
+    flex-wrap: wrap;
+    margin: 0 0%;  
+    margin: 2%;
+    color: black;
+    
+}
+.card .element{
+   padding: 5%;
+    width: 360px;
+}
+.border{
+    border: 1px solid grey;
+}
+/*##########END RESPONSIVE CARD ELEMENTS########*/
+
+/*##########BACKGROUNDS###########*/
+.imageBreaker{
+    background: url(../images/bgImage.jpg);
+    background-attachment: fixed; /*creates paralax effect */
+    background-size: cover; 
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imageBreaker2{
+    background: url(../images/Image6.jpg);
+    background-attachment: fixed; /*creates paralax effect */
+    background-size: cover; 
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imageBreaker3{
+    background: url(../images/bgImage2.jpg);
+    background-attachment: fixed; /*creates paralax effect */
+    background-size: cover; 
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bgImage {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/image8.jpg);
+    background-attachment: fixed; /*creates paralax effect */
+    background-size: cover;
+    }  
+ .greyBg { /*transparent layer*/
+     background:rgba(0,0,0,.01);
+ }
+ .whiteBg {
+    background-color: white;
+}
+.padding{
+    min-height: 80vh;
+  }
+ /*#########END BACKGROUNDS########*/ 
+
+/*########### FORM ###########*/
+.validate{
+  border-radius: 5px;
+  padding: 2em 4em 6em 2em;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+}
+.validate p{
+    display: flex;
+    justify-content: center;
+    color: rgb(230, 102, 88);
+    font-size: 1.4rem;
+}
+input{
+  width: 100%;
+  display: block;
+  height: 50px;
+  background: rgba(0,0,0,0.8);
+  outline: none;
+  border: 1px solid rgba(0,0,0,0.5);
+  margin-bottom:5%;
+  padding-left: 5%;
+  border-radius: 5px;
+  font-size: calc(1rem + .4vw);
+  color: white;
+}
+button{
+  float: right;
+  width: 140px;
+  height: 50px;
+  color: white;
+  background-color:  #FF7F50;
+  /*background-color:rgba( 22, 230, 137, 1 );*/
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+/*########### END FORM ###########*/
+
+/*######### XML FORM#########*/
+#xml{
+    padding: 1em;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+  #xml input{
+    background: rgb(255, 255, 255, 0.1);
+    border: 1.5px solid black;
+    color: black;
+}
+.answer{
+    background: rgb(243, 240, 240);
+}
+#xml button{
+    background-color:rgb(243, 133, 82);
+}
+/*######### END XML FORM#########*/
+
+/*######### TITLE TEXT #########*/
+.title{
+    font-size: calc(3.7rem + .9vw);
+    margin: 0 0 2% 8%;   
+    color: black;
+    font-weight: bold;
+  }
+  .titleWhite{
+    font-size: calc(3.7rem + .9vw);
+    margin: 0 0 2% 8%;   
+    color: white;
+    font-weight: bold;
+  }
+  .title2{
+    font-size: calc(1.4rem + .6vw);
+    margin: 0 0 2% 8%;  
+    width: 40%;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.hl { /* horizontal line */
+    width: 30%;
+    border: 3px solid black;
+    transition: width 4s ease, border 4s ease; 
+  }
+  .hlWhite { /* horizontal line */
+    width: 30%;
+    border: 3px solid white;
+    transition: width 4s ease, border 4s ease; 
+  }
+  .margin{
+    width: 30%;
+    padding-top: 5%;
+    margin-left: 8%;
+  }
+    /* end margin */
+/*######### END TITLE TEXT #########*/
+
+/*################## TEXT #################*/
+  .blackTextSml {
+    text-align: left; 
+    font-size: calc(.8rem + .5vw);
+    color: black;
+    margin: 2% 2% 2% 1%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+  .whiteTitle2 {
+    font-size: calc(2.5rem + .6vw);
+    padding-left: 10%;
+    font-weight: bold;
+    color: white;
+}
+.textCenter {
+    margin: 10% 10%;
+    text-align: center; /*horizontally align*/
+    align-self: center;/*vertically allign*/
+    font-size: calc(2rem + .6vw);
+    color: black;
+  }
+ 
+/*################## END TEXT #################*/
+
+/*############# RESEARCH ################*/
+.research{
+    display: none;
+}
+#revealResearch{
+    background-color:rgba( 22, 230, 137, 1 );
+}
+/*############# END RESEARCH ################*/
+
+/*############# JQUERY EFFECTS ################*/
+.readmore1{
+    display: none;
+}
+.readmore2{
+    display: none;
+}
+/*############ END JQUERY EFFECTS ################*/
+.green{
+    background-color:rgba( 22, 230, 137, 1 );
+}
+

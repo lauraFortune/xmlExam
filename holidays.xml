@@ -1,0 +1,48 @@
+<holidayLibrary>
+
+<holiday>
+    <destination>Paris</destination>
+    <country>France</country>
+    <season>Spring</season>
+    <accomodation>4 Star Hotel</accomodation>
+    <attraction>Eifel Tower</attraction>
+    <cost>€1700</cost>
+</holiday>
+
+<holiday>
+    <destination>Pisa</destination>
+    <country>Italy</country>
+    <season>Spring/Summer</season>
+    <accomodation>Apartment</accomodation>
+    <attraction>Leaning Tower of Pisa</attraction>
+    <cost>€1200</cost>
+</holiday>
+
+<holiday>
+    <destination>New York</destination>
+    <country>USA</country>
+    <season>Winter</season>
+    <accomodation>3 Star Hotel</accomodation>
+    <attraction>Statue of Liberty</attraction>
+    <cost>€2500</cost>
+</holiday>
+
+<holiday>
+    <destination>Verbier</destination>
+    <country>Switzerland</country>
+    <season>Winter</season>
+    <accomodation>Ski Lodge</accomodation>
+    <attraction>Skiing</attraction>
+    <cost>€2000</cost>
+</holiday>
+
+<holiday>
+    <destination>Sharm El-Sheikh</destination>
+    <country>Egypt</country>
+    <season>Summer</season>
+    <accomodation>Apartment</accomodation>
+    <attraction>Diving</attraction>
+    <cost>€2200</cost>
+</holiday>
+
+</holidayLibrary>
